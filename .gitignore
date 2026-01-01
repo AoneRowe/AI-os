@@ -1,0 +1,118 @@
+# Privacy and Sensitive Files
+# =============================
+
+# API Keys and Configuration Files
+**/API-KEY
+**/api-key
+**/apikey
+**/.api-key
+**/*api_key*
+**/*apikey*
+**/*API_KEY*
+**/*API-KEY*
+
+# AI Assistant Directory - Private Files
+ai_assistant/API-KEY
+ai_assistant/**/*.key
+ai_assistant/**/*secret*
+ai_assistant/**/*private*
+ai_assistant/config/*
+ai_assistant/.env*
+
+# Environment Variables and Secrets
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.env.test
+*.env
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+**/.env.staging
+**/.env.test
+
+# Allow .env.example files (they should be committed as templates)
+!.env.example
+!**/.env.example
+
+# Secret and Private Files
+*secret*
+*private*
+*.secret
+*.private
+secrets/
+private/
+**/*.secret
+**/*.private
+
+# Configuration with Sensitive Data
+config.json
+config.yaml
+config.yml
+settings.json
+settings.yaml
+credentials.json
+credentials.yaml
+auth.json
+auth.yaml
+
+# Certificate and Key Files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+**/*.pem
+**/*.key
+
+# Cloud Provider Credentials
+.aws/
+.gcp/
+.azure/
+**/credentials
+**/service-account*.json
+
+# Database Files with Potential Sensitive Data
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and Editor Files (may contain project-specific settings)
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python Cache and Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Logs (may contain sensitive information)
+*.log
+logs/
+**/*.log
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
