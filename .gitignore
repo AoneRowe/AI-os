@@ -4,12 +4,10 @@
 # API Keys and Configuration Files
 **/API-KEY
 **/api-key
-**/apikey
 **/.api-key
 **/*api_key*
 **/*apikey*
 **/*API_KEY*
-**/*API-KEY*
 
 # AI Assistant Directory - Private Files
 ai_assistant/API-KEY
@@ -39,6 +37,9 @@ ai_assistant/.env*
 !**/.env.example
 
 # Secret and Private Files
+# Note: These patterns are intentionally broad to maximize protection against
+# accidentally committing sensitive data. If you have legitimate files that match
+# these patterns, you can explicitly include them using ! patterns or rename them.
 *secret*
 *private*
 *.secret
@@ -60,6 +61,8 @@ auth.json
 auth.yaml
 
 # Certificate and Key Files
+# Note: *.key pattern is intentionally broad to protect private keys.
+# Rename legitimate non-sensitive .key files if needed.
 *.pem
 *.key
 *.cert
