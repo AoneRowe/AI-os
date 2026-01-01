@@ -9,7 +9,7 @@ import urllib.error
 
 
 class DeepSeekAssistant:
-    API_KEY = "sk-fe748bd53ab84387b9d042a530c6a096"
+    API_KEY = "****"
     API_URL = "https://api.deepseek.com/chat/completions"
     MODEL = "deepseek-chat"
     
@@ -302,3 +302,4 @@ if __name__ == "__main__":
     for t in tests:
         r, c = a._local_parse(t)
         print("{} -> {}".format(t, c))
+
